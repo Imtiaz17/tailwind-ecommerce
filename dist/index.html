@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="py-4 bg-white">
+        <div class="container flex items-center justify-between">
+            <!-- logo -->
+            <a href="">
+                <img src="images/logo.png" class="w-32" alt="logo">
+            </a>
+            <!-- searchbar -->
+            <div class="w-full max-w-xl relative flex">
+                <span class="absolute left-4 top-3 text-gray-400">
+                    <i class="bi bi-search"></i>
+                </span>
+                <input type="text"
+                    class="w-full border border-gray-300 border-r-0 pl-12 py-3 pr-3 rounded-l-md focus:border-primary focus:outline-none"
+                    placeholder="search">
+                <button
+                    class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">Search</button>
+            </div>
+            <!-- icons -->
+            <div class="flex items-center space-x-7">
+                <a href="" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <div class="text-xs leading-3">Wish List</div>
+                    <span
+                        class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">4</span>
+                </a>
+                <a href="" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="bi bi-cart2"></i>
+                    </div>
+                    <div class="text-xs leading-3">Cart</div>
+                    <span
+                        class="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">4</span>
+                </a>
+                <a href="" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="bi bi-person"></i>
+                    </div>
+                    <div class="text-xs leading-3">Account</div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <!-- navbar -->
+    <nav class="shadow-sm">
+        <div class="container flex justify-between">
+            <!-- all category -->
+            <div class="px-8 py-4 flex items-center cursor-pointer relative group">
+                <div class="bg-primary py-2 px-6 rounded-md">
+                    <span class="text-white">
+                        <i class="bi bi-list"></i>
+                    </span>
+                    <span class="ml-2 capitalize text-white">All Category</span>
+                </div>
+                <div
+                    class="absolute w-full left-15 top-full bg-white shadow-md divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible ">
+                    <a class="flex items-center py-3 px-6 hover:bg-gray-100 transition">
+                        <span class="text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a class="flex items-center py-3 px-6 hover:bg-gray-100 transition">
+                        <span class="text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a class="flex items-center py-3 px-6 hover:bg-gray-100  transition">
+                        <span class="text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a class="flex items-center py-3 px-6 hover:bg-gray-100  transition">
+                        <span class="text-gray-600 text-sm">Sofa</span>
+                    </a>
+                </div>
+
+            </div>
+            <!-- nav links -->
+            <div class="flex items-center pl-8">
+                <div class="flex items-center space-x-6 capitalize">
+                    <a href="" class="text-gray-600 hover:text-primary transition">About Us</a>
+                    <a href="" class="text-gray-600 hover:text-primary transition">Contact Us</a>
+                    <a href="" class="text-gray-600 hover:text-primary transition">Track Order</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- navbar -->
+    <!-- banner -->
+    <div class="bg-cover bg-no-repeat bg-center py-40" style="background-image: url('images/slide-1.jpg');">
+        <div class="container">
+            <h4 class="capitalize font-normal text-gray-500 text-2xl tracking-wider">Find the Boundaries. Push Through !</h4>
+            <h2 class="uppercase text-7xl font-bold text-gray-800">Sunglasses</h2>
+            <div class="mt-12">
+                <a href="" class="capitalize bg-primary border-primary text-white px-8 py-3 font-medium rounded-md hover:bg-white hover:text-primary hover:border-primary">Shop Now</a>
+            </div>
+        </div>
+    
+    </div>
+    <!-- banner -->
+</body>
+
+</html>
